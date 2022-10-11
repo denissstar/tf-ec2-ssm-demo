@@ -5,6 +5,5 @@ https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-pre
 
 #### CLI command
 ```sh
-aws ssm start-session \
-    --target
+aws ssm start-session --target <INSTANCE-ID>
 ```
