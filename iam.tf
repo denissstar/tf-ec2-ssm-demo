@@ -5,7 +5,6 @@ resource "aws_iam_instance_profile" "instance_profile" {
 
 resource "aws_iam_role" "instance_role" {
   name = "ssm_role"
-  path = "/"
 
   assume_role_policy = <<EOF
 {
